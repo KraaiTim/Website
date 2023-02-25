@@ -2,4 +2,4 @@
 
 My portfolio in plain HTML + CSS
 
-[timkraai.nl](www.timkraai.nl)
+[timkraai.nl](https://www.timkraai.nl)
