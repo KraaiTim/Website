@@ -1,0 +1,183 @@
+body {
+  background-color: white;
+  color: grey;
+  font-family: "Inter", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 64rem;
+}
+
+nav {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+}
+
+nav > a {
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: rgb(55 65 81);
+}
+
+.nav-links {
+  display: flex;
+  gap: 3rem;
+}
+.nav-links > a {
+  color: rgb(55 65 81);
+}
+
+#about {
+  display: flex;
+  margin: 1.5rem, 0.75rem;
+}
+
+.about-text {
+  margin: 0 0.5rem;
+}
+
+.about-text > h1 {
+  margin: 0.5rem 0;
+}
+
+h1,
+h2 {
+  color: rgb(17 24 39);
+}
+
+#about > p {
+  margin-top: 0.5rem;
+}
+
+.button {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  text-align: center;
+  border-radius: 0.25rem;
+  font-family: inherit;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+#button-linkedin {
+  color: white;
+  background-color: rgb(17 24 39);
+  border-color: transparent;
+}
+
+#button-linkedin:hover {
+  color: rgb(31 41 55);
+  background-color: white;
+  border: 1px solid rgb(31 41 55);
+}
+
+#button-github {
+  color: rgb(17 24 39);
+  background-color: white;
+  border: 1px solid rgb(17 24 39);
+}
+
+#button-github:hover {
+  color: white;
+  background-color: rgb(17 24 39);
+  border: 1px solid rgb(17 24 39);
+}
+
+.about-image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-image img {
+  min-width: 12.5rem;
+  max-width: 55rem;
+  box-shadow: 0 1.5rem 3rem -0.75rem rgb(0 0 0 / 0.25);
+  border-radius: 1rem;
+  overflow: hidden;
+  margin-right: 0.5rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.projects-container img {
+  max-width: 50px;
+}
+
+#projects {
+  margin: 1.5rem 0.5rem;
+}
+
+#projects h2,
+h4 {
+  margin: 0.5rem 0;
+}
+
+#projects > h4 {
+  margin-bottom: 1rem;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 25rem);
+  gap: 2rem;
+  padding: 0 0.5rem;
+}
+.projects-container article {
+  width: 25rem;
+  height: 100%;
+  padding: 0 0.5rem;
+  border: 1px solid rgb(17 24 39);
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container article img {
+  min-width: 15rem;
+  margin: 0.5rem 0;
+  border-radius: 1rem;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.projects-container article h4 {
+  color: rgb(17 24 39);
+  margin: 0.25rem 0;
+}
+
+.projects-container article p {
+  margin-top: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Add media queries for different screen sizes */
