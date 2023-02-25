@@ -58,9 +58,10 @@ nav > a {
 
 #about {
   margin: 0.5rem 1rem;
-  z-index: 100;
-  left: 0;
-  top: 20rem;
+}
+
+.about-text {
+  padding-right: 0.5rem;
 }
 
 .button {
